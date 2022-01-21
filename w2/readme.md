@@ -1,0 +1,5 @@
+## What I changed
+I decided to change day2 ex3. This is because I noticed that the original code only gave the *total* days, months, or years that a person had left to live. Instead, I wanted to find the *combined* amount of time a person had left to live. So, instead of giving conversions of the same number like the old code; the new code gives one, single duration of time that is accurate down to the day.
+
+## Learn Together w2
+For our dev work, I think it would be fun to create a text-based adventure game. I grew up playing games like Dunnet on emacs and the Oregon Trail, so these games have a special place in my heart. I also think that they are a great excercise in data manipulation, conditional statements, and other concepts. It's always fascinated me how humans can create whole worlds from a couple of lines of text on a computer screen.
