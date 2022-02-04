@@ -35,7 +35,7 @@ else:
 
     # Get the user's choice out of available choices.
     number_choice = int(input("Make your selection by typing the number to"
-                              " the right of your desired method.\n"))-1
+                              " the left of your desired method.\n"))-1
 
     # Check if the user made a valid choice.
     if number_choice < len(selection):
