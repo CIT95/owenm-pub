@@ -17,6 +17,13 @@ def format_time(entry):
     return datetime.time(h, m)
 
 
+def list_dict(dict):
+    """Prints out the entire sleep log"""
+    for key in dict:
+        print(f"{key.strftime('%m/%d/%Y')}: {dict[key][0].strftime('%H:%M')}"
+              f" PM - {dict[key][1].strftime('%H:%M')} AM")
+
+
 print(art.logo)
 
 sleep_log = {}  # Set up the log dictionary
@@ -77,6 +84,10 @@ for day in sleep_log:
     duration = end - start
     sleep_lengths.append(duration.seconds)
 average_sleep = sum(sleep_lengths) // len(sleep_lengths)
+
+# Print the entire log
+print("\nHere's your sleep log:")
+list_dict(sleep_log)
 
 # Print stats
 print(f"\nYour longest sleep was on {longest_sleep[0].strftime('%m/%d/%Y')}"
