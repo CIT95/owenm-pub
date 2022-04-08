@@ -11,7 +11,7 @@ screen.listen()
 
 
 def go():
-    turtles[5].fd(10)
+    turtles[5].fd(8)
 
 
 for turtle_index in range(0, 6):
